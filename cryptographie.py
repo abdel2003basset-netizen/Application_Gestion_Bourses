@@ -39,7 +39,7 @@ def extended_gcd(a, b):
         g, y, x = extended_gcd(b % a, a)
         return (g, x - (b // a) * y, y)
 
-# --- 1. Génération des clés ---
+# --- 1. Génération des clés  test cmd git---
 
 def generate_keys():
     print("🔑 Génération des clés...")
