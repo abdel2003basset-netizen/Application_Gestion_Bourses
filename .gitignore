@@ -1,11 +1,12 @@
-__pycache__/ 
 *.pyc 
 *.pyo 
 instance/ 
-.env 
-.venv/ 
-venv/ 
-env/ 
+.vscode/ 
+venv/
+.__pycache__/ 
+.Include/
+.Lib/
+.Scripts/ 
 *.sqlite 
 migrations/ 
 .pytest_cache/ 
