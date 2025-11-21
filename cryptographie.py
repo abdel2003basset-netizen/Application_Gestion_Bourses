@@ -92,6 +92,6 @@ message = "Hello ElGamal"
 ciphered = encrypt(public_key, message)
 print("\n Message chiffré :", ciphered)
 
-# Utilisateur A déchiffre le message suivant
+# Utilisateur A déchiffre le message
 decrypted = decrypt(private_key, public_key, ciphered)
 print(" Message déchiffré :", decrypted)
